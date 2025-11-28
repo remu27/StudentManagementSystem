@@ -1,2 +1,6 @@
-# StudentManagementSystem
-í•™ìƒ ì„±ì  ê´€ë¦¬ ì‹œìŠ¤í…œì…ë‹ˆë‹¤.
+¸ğµç ÆÄÀÏÀº UTF-8ÀÌ ¾Æ´Ñ EUC-KR·Î ÀÎÄÚµùµÇ¾î ÀÖ½À´Ï´Ù. ÆÄÀÏÀÌ ±úÁ®º¸ÀÏ ½Ã¿¡ ÆÄÀÏ ÀÎÄÚµùÀ» EUC-KR·Î ¹Ù²Ù¾î ÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
+
+ÇÁ·Î±×·¥ ½ÇÇàÀº ./student_system.exe ¸¦ ÅÍ¹Ì³Î¿¡ ÀÔ·Â½ÃÅ°¸é µË´Ï´Ù.
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco install mingw
